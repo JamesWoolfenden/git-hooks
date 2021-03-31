@@ -7,4 +7,4 @@ if [ "${DEBUG}" != unset ]; then
   set -x
 fi
 
-yor tag -d "$@"
+yor tag -d .
