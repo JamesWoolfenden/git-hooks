@@ -4,7 +4,7 @@
   name: yor
   language: script
   entry: hooks/yor-it.sh
-  args: ['example/examplea']
+  args: ['.']
   exclude: \.terraform\/.*$
   always_run: true
   pass_filenames: false
