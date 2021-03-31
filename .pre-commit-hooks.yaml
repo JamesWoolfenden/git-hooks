@@ -1,10 +1,10 @@
 ---
 
 - id: yor
-  name: Its the tags
+  name: yor
   language: script
   entry: hooks/yor-it.sh
-  args: ['tag', '-d', 'example/examplea']
+  args: 'example/examplea'
   exclude: \.terraform\/.*$
   always_run: false
   pass_filenames: false
