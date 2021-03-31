@@ -1,0 +1,7 @@
+---
+
+- id: yor
+  name: Its the tags
+  language: script
+  entry: hooks/yor-it.sh
+  args: ['tag', '-d', 'example/examplea']
